@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+git config --global user.name Username
+git config --global user.email Username@gmail.com
+
 echo "Installing node"
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 sudo apt-get install nodejs
